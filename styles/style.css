@@ -103,7 +103,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  border: 1px solid red;
   width: 60%;
   text-align: center;
 }
@@ -112,16 +111,33 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  border: 1px solid red;
   width: 60%;
   text-align: center;
 }
 .table {
   width: 1100px;
   margin: 0 auto 100px;
-  border: 1px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
-/* и элемента с модификатором вида ключ-значение */
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0;
+}
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
