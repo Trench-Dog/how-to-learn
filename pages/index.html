@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -18,13 +18,13 @@
           <a class="link header__link" href="#">Узнать &rarr;</a>
         </p>
         <img
-          src="./images/header-image.png"
+          src="../images/header-image.png"
           alt="Картинка для шапки"
           class="header__main-illustration"
         />
         <div class="header__square-pic"></div>
       </header>
-      <main>
+      <main class="content">
         <section class="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -48,6 +48,83 @@
               </p>
             </div>
           </div>
+        </section>
+        <section class="techniques">
+          <h2 class="section-title">Техники обучения</h2>
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+          <div class="cards">
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../images/cards-attention.png"
+                alt="Картинка про изменение мышления"
+              />
+              <h3 class="cards__title">Два вида внимания</h3>
+              <p class="cards__description">
+                Глубокие знания возникают, если чередовать сфокусированное и
+                рассеянное мышление.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../images/cards-recall.png"
+                alt="Картинка про воспоминания"
+              />
+              <h3 class="cards__title">Recall</h3>
+              <p class="cards__description">
+                Вспоминайте изученное — это позволит соединить разрозненные
+                порции памяти.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../images/cards-interliving.png"
+                alt="Картинка с кучкой людей в помещении"
+              />
+              <h3 class="cards__title">Интерливинг</h3>
+              <p class="cards__description">
+                Изучайте несколько навыков одновременно, они обогащают друг
+                друга.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../images/cards-question.png"
+                alt="Картинка с озадаченным человеком в пустом помещении"
+              />
+              <h3 class="cards__title">Вопросы</h3>
+              <p class="cards__description">
+                Слушая преподавателя, придумывайте хороший вопрос, который вас
+                действительно волнует.
+              </p>
+            </div>
+            <div class="cards__item">
+              <img
+                class="cards__image"
+                src="../images/cards-attention.png"
+                alt="Картинка со стопкой книг"
+              />
+              <h3 class="cards__title">Иллюзия компетентности</h3>
+              <p class="cards__description">
+                Повторите про себя, запишите, расскажите другу: вам только
+                кажется, что вы владеете новой темой.
+              </p>
+            </div>
+            <div class="cards__item"></div>
+          </div>
+        </section>
+        <section class="feynman">
+          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a class="feynman__link" href="#">Подробнее &rarr;</a>
+          <img
+            class="feynman__main-illustration"
+            src="../images/feynman.png"
+            alt="Здесь должен был быть Ричард Фейнман, но он не смог приехать"
+          />
         </section>
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
@@ -96,16 +173,6 @@
               <p class="table__text">Открытие условного рефлекса</p>
             </div>
           </div>
-        </section>
-        <section class="feynman">
-          <h2 class="feynman__title">Метод Фейнмана</h2>
-          <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="feynman__link" href="#">Подробнее &rarr;</a>
-          <img
-            class="feynman__main-illustration"
-            src="./images/feynman.png"
-            alt="Здесь должен был быть Ричард Фейнман, но он не смог приехать"
-          />
         </section>
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
@@ -199,21 +266,21 @@
               <a class="footer__column-link" href="#"
                 ><img
                   class="footer__social-icon"
-                  src="./images/youtube-icon.svg"
+                  src="../images/youtube-icon.svg"
                   alt="Значок YouTube"
                 />YouTube</a
               >
               <a class="footer__column-link" href="#"
                 ><img
                   class="footer__social-icon"
-                  src="./images/vk_color_white.svg"
+                  src="../images/vk_color_white.svg"
                   alt="Значок Вконтакте"
                 />ВКонтакте</a
               >
               <a class="footer__column-link" href="#">
                 <img
                   class="footer__social-icon"
-                  src="./images/tiktok-icon.svg"
+                  src="../images/tiktok-icon.svg"
                   alt="Значок Tiktok"
                 />TikTok
               </a>
